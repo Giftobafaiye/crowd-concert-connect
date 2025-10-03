@@ -64,10 +64,10 @@ const AboutSection = () => {
             </div>
             <div className="text-white/80 space-y-2">
               <p>
-                <strong>Location:</strong> Rowe Park
+                <strong>Location:</strong> Undisclosed
               </p>
               <p>
-                <strong>Address:</strong> Yaba, Lagos.
+                <strong>Address:</strong> Undisclosed
               </p>
               <p>
                 <strong>Capacity:</strong> 500+ Concert-goers
@@ -83,7 +83,7 @@ const AboutSection = () => {
             </div>
             <div className="text-white/80 space-y-2">
               <p>
-                <strong>Host:</strong> GPEE WATIMAGBO
+                <strong>Host:</strong> HYPEMAN GPEE
               </p>
               <p>
                 <strong>Presented by:</strong> Youth Connect
