@@ -10,7 +10,10 @@ const HeroSection = () => {
   };
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section
+      id="home"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+    >
       {/* Background Gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-neon-yellow via-festival-orange to-festival-red">
         <div className="absolute inset-0 bg-gradient-to-t from-deep-purple/40 via-transparent to-transparent"></div>
@@ -20,16 +23,22 @@ const HeroSection = () => {
       <div className="absolute inset-0">
         {/* Stage Truss Top */}
         <div className="absolute top-0 left-0 right-0 h-20 bg-gradient-to-b from-black/60 to-transparent"></div>
-        
+
         {/* Spotlights */}
         <div className="absolute top-4 left-1/4 w-4 h-12 bg-black/80 rounded-b-lg"></div>
         <div className="absolute top-4 left-1/2 w-4 h-12 bg-black/80 rounded-b-lg"></div>
         <div className="absolute top-4 right-1/4 w-4 h-12 bg-black/80 rounded-b-lg"></div>
-        
+
         {/* Light Beams */}
         <div className="absolute top-16 left-1/4 w-0.5 h-32 bg-gradient-to-b from-white/30 to-transparent animate-spotlight"></div>
-        <div className="absolute top-16 left-1/2 w-0.5 h-32 bg-gradient-to-b from-white/30 to-transparent animate-spotlight" style={{animationDelay: '1s'}}></div>
-        <div className="absolute top-16 right-1/4 w-0.5 h-32 bg-gradient-to-b from-white/30 to-transparent animate-spotlight" style={{animationDelay: '2s'}}></div>
+        <div
+          className="absolute top-16 left-1/2 w-0.5 h-32 bg-gradient-to-b from-white/30 to-transparent animate-spotlight"
+          style={{ animationDelay: "1s" }}
+        ></div>
+        <div
+          className="absolute top-16 right-1/4 w-0.5 h-32 bg-gradient-to-b from-white/30 to-transparent animate-spotlight"
+          style={{ animationDelay: "2s" }}
+        ></div>
 
         {/* Speakers Left */}
         <div className="absolute left-8 bottom-20 md:left-16 md:bottom-32">
@@ -64,10 +73,22 @@ const HeroSection = () => {
 
         {/* Floating Confetti */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <div className="absolute top-1/4 left-1/3 w-2 h-2 bg-neon-yellow rounded-full animate-float" style={{animationDelay: '0s'}}></div>
-          <div className="absolute top-1/3 right-1/4 w-2 h-2 bg-hot-pink rounded-full animate-float" style={{animationDelay: '1s'}}></div>
-          <div className="absolute top-1/2 left-1/4 w-2 h-2 bg-electric-green rounded-full animate-float" style={{animationDelay: '2s'}}></div>
-          <div className="absolute top-2/3 right-1/3 w-2 h-2 bg-festival-purple rounded-full animate-float" style={{animationDelay: '0.5s'}}></div>
+          <div
+            className="absolute top-1/4 left-1/3 w-2 h-2 bg-neon-yellow rounded-full animate-float"
+            style={{ animationDelay: "0s" }}
+          ></div>
+          <div
+            className="absolute top-1/3 right-1/4 w-2 h-2 bg-hot-pink rounded-full animate-float"
+            style={{ animationDelay: "1s" }}
+          ></div>
+          <div
+            className="absolute top-1/2 left-1/4 w-2 h-2 bg-electric-green rounded-full animate-float"
+            style={{ animationDelay: "2s" }}
+          ></div>
+          <div
+            className="absolute top-2/3 right-1/3 w-2 h-2 bg-festival-purple rounded-full animate-float"
+            style={{ animationDelay: "0.5s" }}
+          ></div>
         </div>
       </div>
 
@@ -82,19 +103,28 @@ const HeroSection = () => {
 
         {/* Main Headline */}
         <h1 className="text-6xl md:text-8xl lg:text-9xl font-festival font-black text-neon-yellow mb-4 leading-none">
-          <span className="block drop-shadow-2xl" style={{
-            textShadow: '4px 4px 0px #2E1065, 8px 8px 20px rgba(0,0,0,0.5)'
-          }}>
+          <span
+            className="block drop-shadow-2xl"
+            style={{
+              textShadow: "4px 4px 0px #2E1065, 8px 8px 20px rgba(0,0,0,0.5)",
+            }}
+          >
             THE
           </span>
-          <span className="block drop-shadow-2xl -mt-4" style={{
-            textShadow: '4px 4px 0px #2E1065, 8px 8px 20px rgba(0,0,0,0.5)'
-          }}>
+          <span
+            className="block drop-shadow-2xl -mt-4"
+            style={{
+              textShadow: "4px 4px 0px #2E1065, 8px 8px 20px rgba(0,0,0,0.5)",
+            }}
+          >
             CROWD
           </span>
-          <span className="block drop-shadow-2xl -mt-4" style={{
-            textShadow: '4px 4px 0px #2E1065, 8px 8px 20px rgba(0,0,0,0.5)'
-          }}>
+          <span
+            className="block drop-shadow-2xl -mt-4"
+            style={{
+              textShadow: "4px 4px 0px #2E1065, 8px 8px 20px rgba(0,0,0,0.5)",
+            }}
+          >
             CONCERT
           </span>
         </h1>
@@ -111,21 +141,21 @@ const HeroSection = () => {
           <p className="text-white font-semibold mb-1">Brought to you by:</p>
           <p className="text-white font-bold text-lg">HYPEVIBE MEDIA</p>
           <p className="text-white font-semibold mb-1">Hosted by:</p>
-          <p className="text-white font-bold text-lg">GPEE WATIMAGBO</p>
+          <p className="text-white font-bold text-lg">HYPEMAN GPEE</p>
         </div>
 
         {/* Call to Action */}
         <div className="space-y-4">
-          <button 
+          <button
             onClick={scrollToTickets}
             className="bg-deep-purple text-white px-8 py-4 rounded-full text-xl font-bold hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-festival-purple/50 animate-glow-pulse"
           >
             Get Tickets Now
           </button>
-          
+
           <div className="text-white/80 text-sm">
             <p>Saturday, November 29, 2025 • 7PM - Till Dawn</p>
-            <p>Venue: Rowe Park, Yaba, Lagos</p>
+            <p>Venue: Undisclosed</p>
           </div>
         </div>
       </div>
