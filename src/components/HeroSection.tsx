@@ -1,11 +1,10 @@
-
-import React from 'react';
+import React from "react";
 
 const HeroSection = () => {
   const scrollToTickets = () => {
-    const element = document.getElementById('tickets');
+    const element = document.getElementById("tickets");
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({ behavior: "smooth" });
     }
   };
 
@@ -155,7 +154,7 @@ const HeroSection = () => {
 
           <div className="text-white/80 text-sm">
             <p>Saturday, November 29, 2025 • 7PM - Till Dawn</p>
-            <p>Venue: Undisclosed</p>
+            <p>Venue: Elizabeth Court</p>
           </div>
         </div>
       </div>
