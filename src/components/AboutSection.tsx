@@ -64,10 +64,10 @@ const AboutSection = () => {
             </div>
             <div className="text-white/80 space-y-2">
               <p>
-                <strong>Location:</strong> Undisclosed
+                <strong>Location:</strong> Yaba, Lagos, Nigeria.
               </p>
               <p>
-                <strong>Address:</strong> Undisclosed
+                <strong>Address:</strong> 48, Majaro Street.
               </p>
               <p>
                 <strong>Capacity:</strong> 500+ Concert-goers

@@ -1,12 +1,14 @@
-
-import React from 'react';
-import { MapPin, Car, Users, Navigation } from 'lucide-react';
+import React from "react";
+import { MapPin, Car, Users, Navigation } from "lucide-react";
 
 const MapSection = () => {
   const openDirections = () => {
-    const address = "F9WJ+QCC, Herbert Macaulay Wy, Yaba, Lagos 101245, Lagos";
+    const address = "48 Majaro St, Yaba, Lagos 100001, Lagos";
     const encodedAddress = encodeURIComponent(address);
-    window.open(`https://www.google.com/maps/dir/?api=1&destination=${encodedAddress}`, '_blank');
+    window.open(
+      `https://www.google.com/maps/dir/?api=1&destination=${encodedAddress}`,
+      "_blank"
+    );
   };
 
   return (
@@ -23,7 +25,7 @@ const MapSection = () => {
             Find Your Way to the Concert
           </h2>
           <p className="text-white/80 text-lg">
-            Rowe Park - The heart of the festival
+            Elizabeth Court - The heart of the festival
           </p>
         </div>
 
@@ -34,7 +36,7 @@ const MapSection = () => {
               {/* Embedded Map */}
 
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.1952503001417!2d3.3784342745587974!3d6.4969473934952156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8c89ed9ce3b9%3A0xe789e87fbc998d8b!2sRowe%20Park%20Yaba%20Lagos!5e0!3m2!1sen!2sng!4v1754672170624!5m2!1sen!2sng"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.0832825020843!2d3.3823684758294204!3d6.51114237667299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8d09e9817ae1%3A0x5f86088913907538!2sElizabeth%20Court!5e0!3m2!1sen!2sng!4v1762707722995!5m2!1sen!2sng"
                 width="100%"
                 height="400"
                 style={{ border: 0 }}
@@ -50,10 +52,9 @@ const MapSection = () => {
                 <div className="flex items-center space-x-2">
                   <MapPin className="w-5 h-5 text-neon-yellow" />
                   <div>
-                    <p className="font-semibold">Rowe Park </p>
+                    <p className="font-semibold">Elizabeth Court</p>
                     <p className="text-sm text-white/80">
-                      F9WJ+QCC, Herbert Macaulay Way, Yaba, Lagos 101245, Lagos,
-                      Nigeria
+                      48 Majaro St, Yaba, Lagos 100001, Lagos
                     </p>
                   </div>
                 </div>
@@ -90,7 +91,7 @@ const MapSection = () => {
               </h3>
             </div>
             <div className="text-white/80 space-y-2">
-              <p>Nearest bus stop: "Herbert Macaulay Way"</p>
+              <p>Nearest bus stop: "Sports center, Unilag"</p>
               <p className="text-sm">5-minute walk from venue</p>
               <p className="text-sm">Special shuttle service available</p>
             </div>
@@ -105,7 +106,7 @@ const MapSection = () => {
               <h3 className="text-white font-semibold text-lg">Ride-Hail</h3>
             </div>
             <div className="text-white/80 space-y-2">
-              <p>Book a ride to Yaba, Herbert Macaulay Way </p>
+              <p>Book a ride to Sports center, Unilag </p>
               <p className="text-sm">Uber, Bolt, and taxis welcome</p>
               <p className="text-sm">Dedicated pickup area after event</p>
             </div>
