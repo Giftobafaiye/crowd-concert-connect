@@ -14,8 +14,9 @@ const HeroSection = () => {
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >
       {/* Background Gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-neon-yellow via-festival-orange to-festival-red">
-        <div className="absolute inset-0 bg-gradient-to-t from-deep-purple/40 via-transparent to-transparent"></div>
+      {/* bg-gradient-to-br from-neon-yellow via-festival-orange to-festival-red */}
+      <div className="absolute inset-0 bg-[url('https://res.cloudinary.com/dw5b23nfl/image/upload/v1762791828/d2530b0d-fbe5-4779-a5e4-41f70d05533e_pqellp.jpg')] bg-cover bg-center ">
+        {/* <div className="absolute inset-0 bg-gradient-to-t from-deep-purple/40 via-transparent to-transparent"></div> */}
       </div>
 
       {/* Animated Background Elements */}
