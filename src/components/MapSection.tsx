@@ -36,7 +36,7 @@ const MapSection = () => {
               {/* Embedded Map */}
 
               <iframe
-                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.2850089083763!2d3.35306427452958!3d6.485545693506408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8c0bbbee9df5%3A0x2af920118507363f!2s1A%20Eric%20Moore%20Cl%2C%20Iganmu%2C%20Lagos%20101241%2C%20Lagos%2C%20Nigeria!5e0!3m2!1sen!2snl!4v1763308772102!5m2!1sen!2snl"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.2850089083763!2d3.35306427452958!3d6.485545693506408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8c0bbbee9df5%3A0x2af920118507363f!2s1A%20Eric%20Moore%20Cl%2C%20Iganmu%2C%20Lagos%20101241%2C%20Lagos%2C%20Nigeria!5e0!3m2!1sen!2snl!4v1763308772102!5m2!1sen!2snl"
                 width="100%"
                 height="400"
                 style={{ border: 0 }}
@@ -46,6 +46,7 @@ const MapSection = () => {
                 title="Event Location Map"
                 className="rounded-lg"
               ></iframe>
+
 
               {/* Map Overlay Info */}
               <div className="absolute top-4 left-4 bg-black/80 backdrop-blur-sm text-white p-3 rounded-lg">
