@@ -3,7 +3,7 @@ import { MapPin, Car, Users, Navigation } from "lucide-react";
 
 const MapSection = () => {
   const openDirections = () => {
-    const address = "48 Majaro St, Yaba, Lagos 100001, Lagos";
+    const address = "1A Eric Moore, Close, Surulere, Lagos 100001, Lagos";
     const encodedAddress = encodeURIComponent(address);
     window.open(
       `https://www.google.com/maps/dir/?api=1&destination=${encodedAddress}`,
@@ -25,7 +25,7 @@ const MapSection = () => {
             Find Your Way to the Concert
           </h2>
           <p className="text-white/80 text-lg">
-            Elizabeth Court - The heart of the festival
+            1A Eric Moore, Close - The heart of the festival
           </p>
         </div>
 
@@ -36,7 +36,7 @@ const MapSection = () => {
               {/* Embedded Map */}
 
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.0832825020843!2d3.3823684758294204!3d6.51114237667299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8d09e9817ae1%3A0x5f86088913907538!2sElizabeth%20Court!5e0!3m2!1sen!2sng!4v1762707722995!5m2!1sen!2sng"
+                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.2850089083763!2d3.35306427452958!3d6.485545693506408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8c0bbbee9df5%3A0x2af920118507363f!2s1A%20Eric%20Moore%20Cl%2C%20Iganmu%2C%20Lagos%20101241%2C%20Lagos%2C%20Nigeria!5e0!3m2!1sen!2snl!4v1763308772102!5m2!1sen!2snl"
                 width="100%"
                 height="400"
                 style={{ border: 0 }}
@@ -52,9 +52,9 @@ const MapSection = () => {
                 <div className="flex items-center space-x-2">
                   <MapPin className="w-5 h-5 text-neon-yellow" />
                   <div>
-                    <p className="font-semibold">Elizabeth Court</p>
+                    <p className="font-semibold">1A Eric Moore, Close</p>
                     <p className="text-sm text-white/80">
-                      48 Majaro St, Yaba, Lagos 100001, Lagos
+                      1A Eric Moore, Close, Surulere, Lagos
                     </p>
                   </div>
                 </div>

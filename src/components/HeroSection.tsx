@@ -15,7 +15,7 @@ const HeroSection = () => {
     >
       {/* Background Gradient */}
       {/* bg-gradient-to-br from-neon-yellow via-festival-orange to-festival-red */}
-      <div className="absolute inset-0 bg-[url('https://res.cloudinary.com/dw5b23nfl/image/upload/v1762791828/d2530b0d-fbe5-4779-a5e4-41f70d05533e_pqellp.jpg')] bg-cover bg-center ">
+      <div className="absolute inset-0 bg-[url('https://res.cloudinary.com/dw5b23nfl/image/upload/v1763308383/PHOTO-2025-11-16-08-43-43_ersvbe.jpg')] bg-cover bg-center ">
         {/* <div className="absolute inset-0 bg-gradient-to-t from-deep-purple/40 via-transparent to-transparent"></div> */}
       </div>
 
@@ -155,7 +155,7 @@ const HeroSection = () => {
 
           <div className="text-white/80 text-sm">
             <p>Saturday, November 29, 2025 • 7PM - Till Dawn</p>
-            <p>Venue: Elizabeth Court</p>
+            <p>Venue: 1A Eric Moore, Close</p>
           </div>
         </div>
       </div>
